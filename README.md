@@ -1,4 +1,4 @@
-# Node.js API
+# nodejs-api
 
 Simple Express REST API with a health check endpoint.
 
@@ -16,7 +16,13 @@ npm install
 npm start
 ```
 
-3. Open `http://localhost:8080/health`
+3. Or run in development mode with automatic reload:
+
+```bash
+npm run dev
+```
+
+4. Open `http://localhost:8080/health`
 
 Expected response:
 
