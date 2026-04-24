@@ -22,10 +22,24 @@ npm start
 npm run dev
 ```
 
-4. Open `http://localhost:8080/health`
+4. Open the health endpoint in your browser or via curl:
+
+```bash
+http://localhost:8080/health
+```
 
 Expected response:
 
 ```json
 { "status": "OK" }
+```
+
+## Notes
+
+- The server listens on `PORT` environment variable or defaults to `8080`.
+- To use a different port in PowerShell:
+
+```powershell
+$env:PORT=3000
+npm start
 ```
