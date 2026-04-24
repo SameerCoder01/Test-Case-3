@@ -25,7 +25,7 @@ npm run dev
 4. Open the health endpoint in your browser or via curl:
 
 ```bash
-http://localhost:8080/health
+http://localhost:3000/health
 ```
 
 Expected response:
